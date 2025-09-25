@@ -26,6 +26,10 @@ func RunBasic() {
 	variables.FnShortVar()
 	types.FnTypes()
 	types.FnZeroValue()
+	types.TypeConver()
+	types.TypeInference()
+	types.TypeConst()
+	types.NumericConst()
 
 	// Flow control statements: for, if, switch and defer.
 
