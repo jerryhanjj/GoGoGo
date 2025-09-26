@@ -1,12 +1,17 @@
 package basic
 
 import (
+	"tutorial/basic/deferfun"
 	"tutorial/basic/export"
+	formodule "tutorial/basic/for"
 	"tutorial/basic/function"
+	ifmodule "tutorial/basic/if"
 	"tutorial/basic/imports"
+	loopfunction "tutorial/basic/loopFunction"
 	"tutorial/basic/multiresult"
 	"tutorial/basic/namedresult"
 	"tutorial/basic/packages"
+	"tutorial/basic/switchcase"
 	"tutorial/basic/types"
 	"tutorial/basic/variables"
 )
@@ -32,5 +37,12 @@ func RunBasic() {
 	types.NumericConst()
 
 	// Flow control statements: for, if, switch and defer.
-
+	formodule.FnFor()
+	formodule.ForClear()
+	ifmodule.FnIf()
+	ifmodule.IfPow()
+	loopfunction.LoopFunction()
+	loopfunction.TestDemo()
+	switchcase.RunSwitchCase()
+	deferfun.DeferExample()
 }
