@@ -5,12 +5,14 @@ import (
 	"tutorial/basic/export"
 	formodule "tutorial/basic/for"
 	"tutorial/basic/function"
+	"tutorial/basic/gostruct"
 	ifmodule "tutorial/basic/if"
 	"tutorial/basic/imports"
 	loopfunction "tutorial/basic/loopFunction"
 	"tutorial/basic/multiresult"
 	"tutorial/basic/namedresult"
 	"tutorial/basic/packages"
+	"tutorial/basic/pointer"
 	"tutorial/basic/switchcase"
 	"tutorial/basic/types"
 	"tutorial/basic/variables"
@@ -45,4 +47,6 @@ func RunBasic() {
 	loopfunction.TestDemo()
 	switchcase.RunSwitchCase()
 	deferfun.DeferExample()
+	pointer.PointerExample()
+	gostruct.RunStructs()
 }
