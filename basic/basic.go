@@ -10,6 +10,7 @@ import (
 	ifmodule "tutorial/basic/if"
 	"tutorial/basic/imports"
 	loopfunction "tutorial/basic/loopFunction"
+	mapgo "tutorial/basic/map"
 	"tutorial/basic/multiresult"
 	"tutorial/basic/namedresult"
 	"tutorial/basic/packages"
@@ -57,4 +58,6 @@ func RunBasic() {
 	arrayslice.RunSliceRange()
 	arrayslice.ShowPic()
 	arrayslice.ShowPicSimple()
+	mapgo.RunMapGo()
+	mapgo.TestWordCount()
 }
