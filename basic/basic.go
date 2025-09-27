@@ -2,10 +2,12 @@ package basic
 
 import (
 	"tutorial/basic/arrayslice"
+	closure "tutorial/basic/closures"
 	"tutorial/basic/deferfun"
 	"tutorial/basic/export"
 	formodule "tutorial/basic/for"
 	"tutorial/basic/function"
+	"tutorial/basic/funcvalue"
 	"tutorial/basic/gostruct"
 	ifmodule "tutorial/basic/if"
 	"tutorial/basic/imports"
@@ -60,4 +62,7 @@ func RunBasic() {
 	arrayslice.ShowPicSimple()
 	mapgo.RunMapGo()
 	mapgo.TestWordCount()
+	funcvalue.RunFuncValue()
+	closure.RunClosure()
+	closure.RunFibonacci()
 }
