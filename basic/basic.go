@@ -1,6 +1,7 @@
 package basic
 
 import (
+	"tutorial/basic/arrayslice"
 	"tutorial/basic/deferfun"
 	"tutorial/basic/export"
 	formodule "tutorial/basic/for"
@@ -49,4 +50,11 @@ func RunBasic() {
 	deferfun.DeferExample()
 	pointer.PointerExample()
 	gostruct.RunStructs()
+	arrayslice.RunSliceBounds()
+	arrayslice.RunMakeSlice()
+	arrayslice.RunSliceSlice()
+	arrayslice.SliceAppend()
+	arrayslice.RunSliceRange()
+	arrayslice.ShowPic()
+	arrayslice.ShowPicSimple()
 }
