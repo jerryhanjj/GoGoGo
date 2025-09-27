@@ -7,5 +7,5 @@ import (
 
 func main() {
 	basic.RunBasic()
-	methods.MethodsExample()
+	methods.RunMethods()
 }
