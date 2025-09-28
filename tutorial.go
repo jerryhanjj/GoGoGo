@@ -10,4 +10,6 @@ func main() {
 	basic.RunBasic()
 	methods.RunMethods()
 	interfacego.InterfaceGo()
+	interfacego.IntercaceImplicitDemo()
+	interfacego.DependencyInversionDemo()
 }
