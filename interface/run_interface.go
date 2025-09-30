@@ -12,4 +12,8 @@ func RunInterface() {
 	StringerIPDemo()
 	ErrorsDemo()
 	ErrorsSqrt()
+	ReaderExample()
+	ReaderMyReaderDemo()
+	ReaderRot13Demo()
+	ImagesDemo()
 }
