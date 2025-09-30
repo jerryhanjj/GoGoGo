@@ -9,13 +9,5 @@ import (
 func main() {
 	basic.RunBasic()
 	methods.RunMethods()
-	interfacego.InterfaceGo()
-	interfacego.IntercaceImplicitDemo()
-	interfacego.DependencyInversionDemo()
-	interfacego.InterfaceValue()
-	interfacego.EmptyInterface()
-	interfacego.TypeAssertion()
-	interfacego.InterfaceTypeSwitch()
-	interfacego.StringerDemo()
-	interfacego.StringerIPDemo()
+	interfacego.RunInterface()
 }

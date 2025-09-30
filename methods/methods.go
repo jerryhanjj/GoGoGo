@@ -10,13 +10,4 @@ func RunMethods() {
 	method.MethodContinue()
 	method.MethodsPointers()
 	method.FuncMethodIndirection()
-	// interfaces
-	// method.InterfaceExample()
-	// method.InterfaceTypeSwitch()
-	// method.InterfaceEmpty()
-	// method.InterfaceStringer()
-	// method.InterfaceError()
-	// method.InterfaceErrorCustom()
-	// method.InterfaceErrorWrap()
-	// method.InterfaceErrorUnwrap()
 }
