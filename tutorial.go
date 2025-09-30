@@ -14,4 +14,8 @@ func main() {
 	interfacego.DependencyInversionDemo()
 	interfacego.InterfaceValue()
 	interfacego.EmptyInterface()
+	interfacego.TypeAssertion()
+	interfacego.InterfaceTypeSwitch()
+	interfacego.StringerDemo()
+	interfacego.StringerIPDemo()
 }
