@@ -1,6 +1,9 @@
 package interfacego
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 type I interface {
 	M()
@@ -15,7 +18,41 @@ func (t T) M() {
 	fmt.Println(t.S)
 }
 
+type F float64
+
+func (f F) M() {
+	fmt.Println(f)
+}
+
 func InterfaceImplicitly() {
 	var i I = T{"hello"}
 	i.M()
+}
+
+func InterfaceValue() {
+	var i I
+	i = &T{"hello"}
+	describe(i)
+	i.M()
+
+	i = F(math.Pi)
+	describe(i)
+	i.M()
+}
+
+func EmptyInterface() {
+	var i interface{}
+	describeEmpty(i)
+	i = 42
+	describeEmpty(i)
+	i = "hello"
+	describeEmpty(i)
+}
+
+func describe(i I) {
+	fmt.Printf("(%v, %T)\n", i, i)
+}
+
+func describeEmpty(i interface{}) {
+	fmt.Printf("(%v, %T)\n", i, i)
 }

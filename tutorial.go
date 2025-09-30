@@ -12,4 +12,6 @@ func main() {
 	interfacego.InterfaceGo()
 	interfacego.IntercaceImplicitDemo()
 	interfacego.DependencyInversionDemo()
+	interfacego.InterfaceValue()
+	interfacego.EmptyInterface()
 }
