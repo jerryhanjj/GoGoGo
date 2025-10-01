@@ -5,4 +5,5 @@ func RunConcurrency() {
 	channelExample()
 	channelRangeClose()
 	channelSelect()
+	RunWebCrawler()
 }
